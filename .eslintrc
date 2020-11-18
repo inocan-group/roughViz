@@ -1,17 +1,20 @@
 {
-    "extends": "strongloop",
-    "parser": "babel-eslint",
-    "env": {
-        "browser": true,
-        "jest": true,
-        "node": true
-    },
-    "rules": {
-        "max-len": ["error", {
-            "code": 100
-        }],
-        "no-new": 0,
-        "prefer-const": "error",
-        // "quotes": ["error", "double"]
-    }
+  "extends": "strongloop",
+  "parser": "prettier-eslint",
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 100
+      }
+    ],
+    "no-new": 0,
+    "prefer-const": "error",
+    "quotes": ["error", "double"]
+  }
 }
