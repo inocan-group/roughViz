@@ -1,6 +1,6 @@
 {
-  "name": "rough-viz",
-  "version": "1.1.0",
+  "name": "@inocan/rough-viz",
+  "version": "1.0.0",
   "description": "Hand drawn, rough, sketchy data visualization in svg.",
   "jsdelivr": "dist/cjs/index.min.js",
   "unpkg": "dist/cjs/index.min.js",
