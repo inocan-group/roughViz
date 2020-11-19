@@ -14,7 +14,7 @@ const external = [
 ];
 
 // required for IIFE and UMD modules
-const globals = { d3: "d3", roughjs: "rough" };
+const globals = { d3: "d3", roughviz: "rough" };
 
 // Rollup configuration for the passed in module system
 const moduleConfig = (moduleSystem, minimized) => ({
